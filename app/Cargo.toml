@@ -1,0 +1,12 @@
+[profile.dev]
+debug = true
+
+[package]
+name = "skeleton"
+version = "0.1.0"
+authors = ["Stepan Barannikov <mail@tmake.ru>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

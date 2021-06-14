@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/app/Dockerfile
+    restart: always
+    working_dir: /usr/src/app
+    volumes:
+      - './app:/usr/src/app'
+    ports:
+      - '7878:7878'
